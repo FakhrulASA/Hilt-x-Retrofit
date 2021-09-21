@@ -2,9 +2,9 @@ package com.fakhrulasa.hiltdiimpl
 
 import javax.inject.Inject
 
-class PrintClass
+class ConstructionInjectClass
 @Inject constructor(){
-    fun printDo(s:String):String{
+    fun printSomething(s:String):String{
         return s
     }
 }
