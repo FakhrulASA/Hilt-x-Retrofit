@@ -1,7 +1,10 @@
 package com.fakhrulasa.hiltdiimpl
 
+import dagger.hilt.android.scopes.ActivityRetainedScoped
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@ActivityRetainedScoped
 class FieldInjectionClass
 @Inject constructor(private val constructionInjectClass: ConstructionInjectClass){
 
