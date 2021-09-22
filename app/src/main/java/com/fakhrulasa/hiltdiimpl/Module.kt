@@ -9,7 +9,7 @@ import javax.inject.Singleton
 @Module
 @InstallIn(ActivityComponent::class)
 class Module {
-    @Singleton
+
     @Provides
     fun provideInterface():ProvideInterface{
         return ProvideInterfaceImp()

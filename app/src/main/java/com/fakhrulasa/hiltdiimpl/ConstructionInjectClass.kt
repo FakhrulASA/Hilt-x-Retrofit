@@ -5,11 +5,11 @@ import javax.inject.Singleton
 
 @Singleton
 class ConstructionInjectClass
-@Inject constructor(private var provideInterfaceImp: ProvideInterfaceImp){
+@Inject constructor(private var provideInterface: ProvideInterfaceImp){
     fun printSomething(s:String):String{
         return s
     }
     fun printSomethingProvides(s:String):String{
-        return provideInterfaceImp.provideName(s)
+        return provideInterface.provideName(s)
     }
 }

@@ -7,7 +7,6 @@ class ProvideInterfaceImp
     override fun provideName(s: String): String {
         return s
     }
-
     override fun provideAge(s: String): String {
         return s
     }

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             textShow.text=fieldInjectionClass.printWithConInject("Construction Injected")
         }, 2000)
         Handler().postDelayed({
-            textShow.text=fieldInjectionClass.printWithConInject("Dependencies Provided")
+            textShow.text=fieldInjectionClass.printWithProvide("Dependencies Provided")
         }, 3000)
     }
 }

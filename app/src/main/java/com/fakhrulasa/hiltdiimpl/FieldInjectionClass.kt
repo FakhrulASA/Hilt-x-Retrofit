@@ -14,4 +14,7 @@ class FieldInjectionClass
     fun printWithConInject(s:String):String{
         return  constructionInjectClass.printSomething(s)
     }
+    fun printWithProvide(s:String):String{
+        return  constructionInjectClass.printSomethingProvides(s)
+    }
 }
